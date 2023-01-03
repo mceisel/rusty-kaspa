@@ -30,6 +30,7 @@ smallvec.workspace = true
 kaspa-utils.workspace = true
 log.workspace = true
 
+hashbrown = { version = "0.13.1", features = ["raw"] }
 rocksdb = "0.19"
 parking_lot = "0.12"
 crossbeam-channel = "0.5"
